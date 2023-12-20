@@ -6,23 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="app.css">
-  <title>Jasper's project Index</title>
+    <style>
+      body {
+        padding-top: 56px; /* Adjust this value according to your navbar's height */
+      }
+    </style>
+  <title>Jasper's projects</title>
 </head>
 
 <body>
   <div class="conatiner">
-    <div class="container mt-4">
-      <h1>Jasper's project index</h1>
-    </div>
-    <div class="container mt-4">
-      <a href="https://3willows.github.io/messages/" target="blank" class="btn btn-primary btn-lg"> Base64 encoding</a>
-      <a href="https://3willows.github.io/rpsLizardSpock/" target="blank"
-        class="btn btn-danger btn-lg  mt-3 mt-md-0">Rock Paper Sciessors Spock</a>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    </div>
+    <nav id="mainNavBar" class="navbar navbar-expand-lg navbar-light fixed-top border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+          </ul>
+        </div>
+    </nav>
+  </div>
+
+
+  <div class="container">
+    <h1>Jasper's projects</h1>
+  </div>
+  <div class="container mt-4">
+    <a href="https://3willows.github.io/messages/" target="blank" class="btn btn-primary btn-lg"> Base64 encoding</a>
+    <a href="https://3willows.github.io/rpsLizardSpock/" target="blank" class="btn btn-danger btn-lg  mt-3 mt-md-0">Rock Paper Scissors Lizard Spock</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </div>
   </div>
 </body>
 
