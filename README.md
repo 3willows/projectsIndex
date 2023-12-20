@@ -2,8 +2,10 @@ This is an index page for my deployed projects.
 
 ## Links to source code
 
-- [Rock Paper Scissors Lizard Spock](https://github.com/3willows/rpsLizardSpock)
-- [Base64 Encoding](https://github.com/3willows/messages)
+- <a href="https://github.com/3willows/rpsLizardSpock" target="_blank">Rock Paper Scissors Lizard Spock</a>
+- <a href="https://github.com/3willows/messages" target="_blank">Base64 Encoding</a>
+
+(For deployed version see the link at the top right)
 
 (For deployed version see the link at the top right)
 
@@ -14,4 +16,8 @@ This is an index page for my deployed projects.
 - [ ] Add moviesApi project
 - [ ] Add blog
 
+<<<<<<< HEAD
 (Projects under active development, comments/PR welcome)
+=======
+(Projects under active development, feature request/comments/PR welcome)
+>>>>>>> eaa159d2bedd8704fa21770ae7fb783c0fc1a642
