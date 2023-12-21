@@ -13,7 +13,7 @@ This is an index page for my deployed projects.
 
 - [ ] Add [timer project](https://github.com/3willows/timerProject)
 - [ ] Add [canvas project](https://3willows.github.io/canvasApiProject/)
-- [ ] Add moviesApi project
+- [ ] Add [moviesApi project](https://github.com/3willows/moviesApiProject)
 - [ ] Add blog
 
 (Projects under active development, feature request/comments/PR welcome.)
