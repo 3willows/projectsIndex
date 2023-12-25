@@ -7,8 +7,6 @@ This is an index page for my deployed projects.
 
 (For deployed version see the link at the top right)
 
-(For deployed version see the link at the top right)
-
 ## TO DO
 
 - [ ] Add [timer project](https://github.com/3willows/timerProject)
